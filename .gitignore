@@ -5,6 +5,14 @@
 *.elf
 *.crf
 *.d
+*.bak
+*.map
+*.Jenya
+*.lst
+*.iex
+*.htm
+*.lnp
+*.sct
 
 # Precompiled Headers
 *.gch
