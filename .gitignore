@@ -13,6 +13,8 @@
 *.htm
 *.lnp
 *.sct
+*.dep
+*.axf
 
 # Precompiled Headers
 *.gch
