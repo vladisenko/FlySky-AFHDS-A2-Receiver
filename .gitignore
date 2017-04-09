@@ -3,6 +3,8 @@
 *.ko
 *.obj
 *.elf
+*.crf
+*.d
 
 # Precompiled Headers
 *.gch
@@ -26,7 +28,6 @@
 *.app
 *.i*86
 *.x86_64
-*.hex
 
 # Debug files
 *.dSYM/
