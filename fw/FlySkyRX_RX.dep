@@ -1,0 +1,72 @@
+Dependencies for Project 'FlySkyRX', Target 'RX': (DO NOT MODIFY !)
+F (.\start-up\system_stm32f0xx.c)(0x57CDAABB)(--c99 -c --cpu Cortex-M0 -g -O2 -Otime --apcs=interwork --split_sections -I.\src -I.\start-up-I C:\Keil474\ARM\RV31\INC-I D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include-I C:\Keil474\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\exe\system_stm32f0xx.o --omf_browse .\exe\system_stm32f0xx.crf --depend .\exe\system_stm32f0xx.d)
+I (.\src\stm32f0xx.h)(0x55AF46B6)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cm0.h)(0x55099E74)
+I (C:\Keil474\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmInstr.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmFunc.h)(0x55099E74)
+I (.\start-up\system_stm32f0xx.h)(0x55AF46B6)
+F (.\start-up\startup_stm32f030.s)(0x57C8521B)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Keil474\ARM\RV31\INC-I D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include-I C:\Keil474\ARM\Inc\ST\STM32F0xx--list .\startup_stm32f030.lst --xref -o .\exe\startup_stm32f030.o --depend .\exe\startup_stm32f030.d)
+F (.\src\main.c)(0x58E3F5B1)(--c99 -c --cpu Cortex-M0 -g -O2 -Otime --apcs=interwork --split_sections -I.\src -I.\start-up-I C:\Keil474\ARM\RV31\INC-I D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include-I C:\Keil474\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\exe\main.o --omf_browse .\exe\main.crf --depend .\exe\main.d)
+I (src\bsp.h)(0x58E3DCE3)
+I (C:\Keil474\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (src\stm32f0xx.h)(0x55AF46B6)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cm0.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmInstr.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmFunc.h)(0x55099E74)
+I (.\start-up\system_stm32f0xx.h)(0x55AF46B6)
+I (src\dsm.h)(0x58E3E822)
+I (src\flash.h)(0x58E34A4D)
+I (src\flysky_A2.h)(0x58E3F5A5)
+F (.\src\A7105.c)(0x58E29519)(--c99 -c --cpu Cortex-M0 -g -O2 -Otime --apcs=interwork --split_sections -I.\src -I.\start-up-I C:\Keil474\ARM\RV31\INC-I D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include-I C:\Keil474\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\exe\a7105.o --omf_browse .\exe\a7105.crf --depend .\exe\a7105.d)
+I (src\A7105.h)(0x58E29519)
+I (C:\Keil474\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (src\rx_spi.h)(0x58E29492)
+I (src\stm32f0xx.h)(0x55AF46B6)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cm0.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmInstr.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmFunc.h)(0x55099E74)
+I (.\start-up\system_stm32f0xx.h)(0x55AF46B6)
+F (.\src\dsm.c)(0x58E29D47)(--c99 -c --cpu Cortex-M0 -g -O2 -Otime --apcs=interwork --split_sections -I.\src -I.\start-up-I C:\Keil474\ARM\RV31\INC-I D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include-I C:\Keil474\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\exe\dsm.o --omf_browse .\exe\dsm.crf --depend .\exe\dsm.d)
+I (src\stm32f0xx.h)(0x55AF46B6)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cm0.h)(0x55099E74)
+I (C:\Keil474\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmInstr.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmFunc.h)(0x55099E74)
+I (.\start-up\system_stm32f0xx.h)(0x55AF46B6)
+I (src\dsm.h)(0x58E3E822)
+F (.\src\flash.c)(0x58E34C81)(--c99 -c --cpu Cortex-M0 -g -O2 -Otime --apcs=interwork --split_sections -I.\src -I.\start-up-I C:\Keil474\ARM\RV31\INC-I D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include-I C:\Keil474\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\exe\flash.o --omf_browse .\exe\flash.crf --depend .\exe\flash.d)
+I (src\stm32f0xx.h)(0x55AF46B6)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cm0.h)(0x55099E74)
+I (C:\Keil474\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmInstr.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmFunc.h)(0x55099E74)
+I (.\start-up\system_stm32f0xx.h)(0x55AF46B6)
+I (src\flash.h)(0x58E34A4D)
+F (.\src\bsp.c)(0x58E3EFE4)(--c99 -c --cpu Cortex-M0 -g -O2 -Otime --apcs=interwork --split_sections -I.\src -I.\start-up-I C:\Keil474\ARM\RV31\INC-I D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include-I C:\Keil474\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\exe\bsp.o --omf_browse .\exe\bsp.crf --depend .\exe\bsp.d)
+I (src\bsp.h)(0x58E3DCE3)
+I (C:\Keil474\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (src\stm32f0xx.h)(0x55AF46B6)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cm0.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmInstr.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmFunc.h)(0x55099E74)
+I (.\start-up\system_stm32f0xx.h)(0x55AF46B6)
+F (.\src\rx_spi.c)(0x58E29AB9)(--c99 -c --cpu Cortex-M0 -g -O2 -Otime --apcs=interwork --split_sections -I.\src -I.\start-up-I C:\Keil474\ARM\RV31\INC-I D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include-I C:\Keil474\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\exe\rx_spi.o --omf_browse .\exe\rx_spi.crf --depend .\exe\rx_spi.d)
+I (src\rx_spi.h)(0x58E29492)
+I (C:\Keil474\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (src\stm32f0xx.h)(0x55AF46B6)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cm0.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmInstr.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmFunc.h)(0x55099E74)
+I (.\start-up\system_stm32f0xx.h)(0x55AF46B6)
+F (.\src\flysky_A2.c)(0x58E3F6B9)(--c99 -c --cpu Cortex-M0 -g -O2 -Otime --apcs=interwork --split_sections -I.\src -I.\start-up-I C:\Keil474\ARM\RV31\INC-I D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include-I C:\Keil474\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\exe\flysky_a2.o --omf_browse .\exe\flysky_a2.crf --depend .\exe\flysky_a2.d)
+I (C:\Keil474\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (src\bsp.h)(0x58E3DCE3)
+I (C:\Keil474\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (src\stm32f0xx.h)(0x55AF46B6)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cm0.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmInstr.h)(0x55099E74)
+I (D:\ATMEL\_ARM_project\3PRE\f051_rtos\CMSIS\Include\core_cmFunc.h)(0x55099E74)
+I (.\start-up\system_stm32f0xx.h)(0x55AF46B6)
+I (src\A7105.h)(0x58E29519)
+I (src\flysky_A2.h)(0x58E3F5A5)
